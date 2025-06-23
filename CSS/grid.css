@@ -1,0 +1,20 @@
+*{
+    margin:O;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.grid-continer {
+    display: grid;
+    grid-template-columns: 100px 150px;
+    grid-template-rows: 100px 150px;
+    height:100vh
+    border10px solid #333;
+}
+
+.grid-item {
+    background-color: blueviolet;
+    border:5px solid #333;
+    padding:20px;
+}
